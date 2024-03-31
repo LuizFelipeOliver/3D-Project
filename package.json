@@ -1,4 +1,17 @@
 {
+  "name": "3d-project-main",
+  "version": "1.0.0",
+  "homepage": "https://github.com/LuizFelipeOliver/3D-Project/",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "three": "^0.163.0",
     "vite": "^5.2.7"
